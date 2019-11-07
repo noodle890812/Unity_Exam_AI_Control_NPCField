@@ -477,6 +477,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: 180, z: 0}
+--- !u!1 &2083482740 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1780668517}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2083482743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2083482740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eeea109cf6e40a343b086efc19a673f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Say: "\u5B89\u5B89"
+  SaySpeed: 0.2
+  Complete: 0
+  Batery: 0
+  BateryFinish: 0
 --- !u!1 &2146034152 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100110, guid: bff429107601444d59c67940e6ad78c4,
@@ -518,3 +541,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &2146034156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2146034152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adff674f35c43d448893d60170f8798c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MoveSpeed: 0.05
+  JumpForce: 50
+  isGround: 0
